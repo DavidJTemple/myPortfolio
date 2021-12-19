@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David's Portfolio Website</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/7865719b9a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img class="logo-pic" src="photos/logo.png" alt="me" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle-navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__tem">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>David Temple</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        FULL-STACK DEVELOPER
+      </p>
+      <img class="intro__img" src="photos/dave.png" alt="a picture of me" />
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <!-- service -->
+        <div class="service">
+          <h3>UI/UX</h3>
+          <p>
+            I am strong with User Interface designs. I have worked alot with with the Figma progeram to capture eye pleasing
+            products and to ensure a great user experience. I feel
+            my work is creative and captivating, and able to stay modern
+            without losing the ease-of-use.
+          </p>
+        </div>
+        <!-- service -->
+        <div class="service">
+          <h3>Front End Dev</h3>
+          <p>
+            I have worked alot with mark-up languages such as HTML and JSX
+            to build sound structures for all of my projects. The ability to
+            pair the mark-up language with CSS to ensure quality work speaks
+            for itself when viewing my work from any size screen.
+          </p>
+        </div>
+        <!-- service -->
+        <div class="service">
+          <h3>Back End Dev</h3>
+          <p>
+            My back end development has come along way from the beginning of my first semester in school. I started coding in Python and then
+            moved to a more dynamic language in Javascript. I have become 
+            more coonfident in my ability as I continue to grow my skill-set.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer + Developer based out of NL
+      </p>
+      <div class="about-me__body">
+        <p>
+          I am currently a student enrolled at Keyin College studying Software 
+          Development. I have a flare for design and creativity, and love the 
+          freedom to create and build that the field of Technology has allowed
+          me to explore.
+        </p>
+        <p>
+          Before entering my Software Development program, I was involved with
+          'Industrial Contruction' for 13 years. I am a red-seal Pipefitter and 
+          relied heavily on the Oil & Gas indusry for most of my career. I am 
+          grateful for my time in that industry and all the projects I was able
+          to be a part of. I met some great people along the way, and I hope to
+          carry that trend into my new career in the 'Tech' field. 
+        </p>
+      </div>
+      <img
+        src="photos/dave.jpg"
+        alt="a picture of me "
+        class="about-me__img"
+        width="200"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <!-- Portfolio-01 -->
+      <div class="portfolio">
+        <a href="item.html" class="portfolio__item">
+          <img src="photos/fridge.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio-02 -->
+
+        <a href="item2.html" class="portfolio__item">
+          <img src="photos/inclass.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio-03 -->
+
+        <a href="item3.html" class="portfolio__item">
+          <img src="photos/pages.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio-04 -->
+
+        <a href="item4.html" class="portfolio__item">
+          <img src="photos/portfolio.png" alt="" class="portfolio__img" />
+        </a>
+
+   
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <a href="mailto:david.temple@keyin.com" class="footer__link"
+        >david.temple@keyin.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io">
+            <i class="fab fa-codepen"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com">
+            <i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com">
+            <i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.youtube.com">
+            <i class="fab fa-youtube"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
